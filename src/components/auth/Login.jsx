@@ -1,7 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
+import * as links from "../../connect/data.json";
+import { post } from "../../connect/index";
 import Footer from "../navigation/footer";
+import { Link } from "react-router-dom";
 
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [msg, setMsg] = useState("");
+  const url = `${links.url}/login`;
+  const submitForm = (e) => {
+    e.preventDefault();
+    post(url, { email, password }).then((res) => {
+      if (res.success) {
+        setMsg("Login Successful, Please Wait!!!");
+        window.location = "/";
+      } else {
+        setMsg(res.error);
+      }
+    });
+  };
   return (
     <>
       <div className="ps-page--my-account">
@@ -9,7 +27,7 @@ const Login = () => {
           <div className="container">
             <ul className="breadcrumb">
               <li>
-                <a href="index-2.html">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>Login</li>
             </ul>
@@ -20,8 +38,7 @@ const Login = () => {
             <a href="#sign-in">Login</a>
             <form
               className="ps-form--account ps-tab-root"
-              action=""
-              method="get"
+              onSubmit={submitForm}
             >
               <div className="ps-tabs">
                 <div className="" id="sign-in">
@@ -30,15 +47,23 @@ const Login = () => {
                     <div className="form-group">
                       <input
                         className="form-control"
-                        type="text"
-                        placeholder="Username or email address"
+                        type="email"
+                        placeholder="Email Address"
+                        value={email}
+                        onChange={({ target }) => {
+                          setEmail(target.value);
+                        }}
                       />
                     </div>
                     <div className="form-group form-forgot">
                       <input
                         className="form-control"
-                        type="text"
-                        placeholder="Password"
+                        type="password"
+                        placeholder="Enter Password"
+                        value={password}
+                        onChange={({ target }) => {
+                          setPassword(target.value);
+                        }}
                       />
                       <a href="#0">Forgot?</a>
                     </div>
@@ -58,6 +83,10 @@ const Login = () => {
                         Login
                       </button>
                     </div>
+                    <hr />
+                    {msg ? (
+                      <div className="alert alert-success">{msg}</div>
+                    ) : null}
                   </div>
                 </div>
               </div>

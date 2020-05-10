@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Navigation extends Component {
   state = {};
@@ -10,7 +11,7 @@ class Navigation extends Component {
             <div className="menu--product-categories">
               <div className="menu__toggle">
                 <i className="icon-menu"></i>
-                <span> Shop by Department</span>
+                <span> Shop by Category</span>
               </div>
               <div className="menu__content">
                 <ul className="menu--dropdown">
@@ -179,287 +180,23 @@ class Navigation extends Component {
           </div>
           <div className="navigation__right">
             <ul className="menu menu--organic">
-              <li className="current-menu-item menu-item-has-children">
-                <a href="index-2.html">Home</a>
-                <span className="sub-toggle"></span>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="index-2.html">Marketplace Full Width</a>
-                  </li>
-                  <li>
-                    <a href="homepage-2.html">Home Auto Parts</a>
-                  </li>
-                  <li>
-                    <a href="homepage-10.html">Home Technology</a>
-                  </li>
-                  <li>
-                    <a href="homepage-9.html">Home Organic</a>
-                  </li>
-                  <li>
-                    <a href="homepage-3.html">Home Marketplace V1</a>
-                  </li>
-                  <li>
-                    <a href="homepage-4.html">Home Marketplace V2</a>
-                  </li>
-                  <li>
-                    <a href="homepage-5.html">Home Marketplace V3</a>
-                  </li>
-                  <li>
-                    <a href="homepage-6.html">Home Marketplace V4</a>
-                  </li>
-                  <li>
-                    <a href="homepage-7.html">Home Electronic</a>
-                  </li>
-                  <li>
-                    <a href="homepage-8.html">Home Furniture</a>
-                  </li>
-                  <li>
-                    <a href="homepage-kids.html">Home Kids</a>
-                  </li>
-                  <li>
-                    <a href="homepage-photo-and-video.html">
-                      Home photo and picture
-                    </a>
-                  </li>
-                </ul>
+              <li className="current-menu-item">
+                <Link to="/">Home</Link>
               </li>
-              <li className="menu-item-has-children has-mega-menu">
-                <a href="shop-default.html">Shop</a>
-                <span className="sub-toggle"></span>
-                <div className="mega-menu">
-                  <div className="mega-menu__column">
-                    <h4>
-                      Catalog Pages<span className="sub-toggle"></span>
-                    </h4>
-                    <ul className="mega-menu__list">
-                      <li>
-                        <a href="shop-default.html">Shop Default</a>
-                      </li>
-                      <li>
-                        <a href="shop-default.html">Shop Fullwidth</a>
-                      </li>
-                      <li>
-                        <a href="shop-categories.html">Shop Categories</a>
-                      </li>
-                      <li>
-                        <a href="shop-sidebar.html">Shop Sidebar</a>
-                      </li>
-                      <li>
-                        <a href="shop-sidebar-without-banner.html">
-                          Shop Without Banner
-                        </a>
-                      </li>
-                      <li>
-                        <a href="shop-carousel.html">Shop Carousel</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="mega-menu__column">
-                    <h4>
-                      Product Layout<span className="sub-toggle"></span>
-                    </h4>
-                    <ul className="mega-menu__list">
-                      <li>
-                        <a href="product-default.html">Default</a>
-                      </li>
-                      <li>
-                        <a href="product-extend.html">Extended</a>
-                      </li>
-                      <li>
-                        <a href="product-full-content.html">Full Content</a>
-                      </li>
-                      <li>
-                        <a href="product-box.html">Boxed</a>
-                      </li>
-                      <li>
-                        <a href="product-sidebar.html">Sidebar</a>
-                      </li>
-                      <li>
-                        <a href="product-default.html">Fullwidth</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="mega-menu__column">
-                    <h4>
-                      Product Types<span className="sub-toggle"></span>
-                    </h4>
-                    <ul className="mega-menu__list">
-                      <li>
-                        <a href="product-default.html">Simple</a>
-                      </li>
-                      <li>
-                        <a href="product-default.html">Color Swatches</a>
-                      </li>
-                      <li>
-                        <a href="product-image-swatches.html">
-                          Images Swatches
-                        </a>
-                      </li>
-                      <li>
-                        <a href="product-countdown.html">Countdown</a>
-                      </li>
-                      <li>
-                        <a href="product-multi-vendor.html">Multi-Vendor</a>
-                      </li>
-                      <li>
-                        <a href="product-instagram.html">Instagram</a>
-                      </li>
-                      <li>
-                        <a href="product-affiliate.html">Affiliate</a>
-                      </li>
-                      <li>
-                        <a href="product-on-sale.html">On sale</a>
-                      </li>
-                      <li>
-                        <a href="product-video.html">Video Featured</a>
-                      </li>
-                      <li>
-                        <a href="product-groupped.html">Grouped</a>
-                      </li>
-                      <li>
-                        <a href="product-out-stock.html">Out Of Stock</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="mega-menu__column">
-                    <h4>
-                      Woo Pages<span className="sub-toggle"></span>
-                    </h4>
-                    <ul className="mega-menu__list">
-                      <li>
-                        <a href="shopping-cart.html">Shopping Cart</a>
-                      </li>
-                      <li>
-                        <a href="checkout.html">Checkout</a>
-                      </li>
-                      <li>
-                        <a href="whishlist.html">Whishlist</a>
-                      </li>
-                      <li>
-                        <a href="compare.html">Compare</a>
-                      </li>
-                      <li>
-                        <a href="order-tracking.html">Order Tracking</a>
-                      </li>
-                      <li>
-                        <a href="my-account.html">My Account</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+              <li className="current-menu-item">
+                <Link to="/about-us">About Us</Link>
               </li>
-              <li className="menu-item-has-children has-mega-menu">
-                <a href="#0">Pages</a>
-                <span className="sub-toggle"></span>
-                <div className="mega-menu">
-                  <div className="mega-menu__column">
-                    <h4>
-                      Basic Page<span className="sub-toggle"></span>
-                    </h4>
-                    <ul className="mega-menu__list">
-                      <li>
-                        <a href="about-us.html">About Us</a>
-                      </li>
-                      <li>
-                        <a href="contact-us.html">Contact</a>
-                      </li>
-                      <li>
-                        <a href="faqs.html">Faqs</a>
-                      </li>
-                      <li>
-                        <a href="comming-soon.html">Comming Soon</a>
-                      </li>
-                      <li>
-                        <a href="404-page.html">404 Page</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="mega-menu__column">
-                    <h4>
-                      Vendor Pages<span className="sub-toggle"></span>
-                    </h4>
-                    <ul className="mega-menu__list">
-                      <li>
-                        <a href="become-a-vendor.html">Become a Vendor</a>
-                      </li>
-                      <li>
-                        <a href="vendor-store.html">Vendor Store</a>
-                      </li>
-                      <li>
-                        <a href="vendor-dashboard-free.html">
-                          Vendor Dashboard Free
-                        </a>
-                      </li>
-                      <li>
-                        <a href="vendor-dashboard-pro.html">
-                          Vendor Dashboard Pro
-                        </a>
-                      </li>
-                      <li>
-                        <a href="store-list.html">Store List</a>
-                      </li>
-                      <li>
-                        <a href="store-list.html">Store List 2</a>
-                      </li>
-                      <li>
-                        <a href="store-detail.html">Store Detail</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+              <li className="current-menu-item">
+                <Link to="/contact-us">Contact Us</Link>
               </li>
-              <li className="menu-item-has-children has-mega-menu">
-                <a href="#0">Blogs</a>
-                <span className="sub-toggle"></span>
-                <div className="mega-menu">
-                  <div className="mega-menu__column">
-                    <h4>
-                      Blog Layout<span className="sub-toggle"></span>
-                    </h4>
-                    <ul className="mega-menu__list">
-                      <li>
-                        <a href="blog-grid.html">Grid</a>
-                      </li>
-                      <li>
-                        <a href="blog-list.html">Listing</a>
-                      </li>
-                      <li>
-                        <a href="blog-small-thumb.html">Small Thumb</a>
-                      </li>
-                      <li>
-                        <a href="blog-left-sidebar.html">Left Sidebar</a>
-                      </li>
-                      <li>
-                        <a href="blog-right-sidebar.html">Right Sidebar</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="mega-menu__column">
-                    <h4>
-                      Single Blog<span className="sub-toggle"></span>
-                    </h4>
-                    <ul className="mega-menu__list">
-                      <li>
-                        <a href="blog-detail.html">Single 1</a>
-                      </li>
-                      <li>
-                        <a href="blog-detail-2.html">Single 2</a>
-                      </li>
-                      <li>
-                        <a href="blog-detail-3.html">Single 3</a>
-                      </li>
-                      <li>
-                        <a href="blog-detail-4.html">Single 4</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+              <li className="current-menu-item">
+                <Link to="/be-a-vendor">Be A Vendor</Link>
               </li>
             </ul>
             <div className="ps-block--header-hotline inline">
               <p>
                 <i className="icon-telephone"></i>Hotline:
-                <strong> 1-800-234-5678</strong>
+                <strong> +234-805-198-5616</strong>
               </p>
             </div>
           </div>

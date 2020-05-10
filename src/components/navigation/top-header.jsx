@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class TopHeader extends Component {
   state = {};
@@ -283,8 +284,8 @@ class TopHeader extends Component {
                   <i className="icon-user"></i>
                 </div>
                 <div className="ps-block__right">
-                  <a href="my-account.html">Login</a>
-                  <a href="my-account.html">Register</a>
+                  <Link to="/login">Login</Link>
+                  <Link to="/joinus">Register</Link>
                 </div>
               </div>
             </div>
