@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import * as links from "../../connect/data.json";
-import { post } from "../../connect/index";
-import Footer from "../navigation/footer";
+import * as links from "../../../../connect/data.json";
+import { post } from "../../../../connect/index";
+import Footer from "../../../navigation/footer";
 
-const NewAccount = () => {
+const NewVendorAccount = () => {
   const [firstName, setFN] = useState("");
   const [lastName, setLN] = useState("");
   const [email, setEmail] = useState("");
   const [msg, setMsg] = useState("");
   const [password, setPassword] = useState("");
-  const url = `${links.url}/newuser`;
+  const url = `${links.url}/vendor/newaccount`;
   const submitForm = (e) => {
     e.preventDefault();
     setMsg("please wait!");
@@ -25,16 +25,6 @@ const NewAccount = () => {
   return (
     <>
       <div className="ps-page--my-account">
-        <div className="ps-breadcrumb">
-          <div className="container">
-            <ul className="breadcrumb">
-              <li>
-                <a href="index-2.html">Home</a>
-              </li>
-              <li>New Account</li>
-            </ul>
-          </div>
-        </div>
         <div className="ps-my-account">
           <div className="container">
             <form
@@ -44,7 +34,7 @@ const NewAccount = () => {
               <div className="ps-tabs">
                 <div className="" id="sign-in">
                   <div className="ps-form__content">
-                    <h5>Register An Account</h5>
+                    <h5>Create Vendor Account</h5>
 
                     <div className="form-group">
                       <input
@@ -115,4 +105,4 @@ const NewAccount = () => {
   );
 };
 
-export default NewAccount;
+export default NewVendorAccount;

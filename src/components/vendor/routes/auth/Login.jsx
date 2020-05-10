@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import * as links from "../../connect/data.json";
-import { post } from "../../connect/index";
-import Footer from "../navigation/footer";
+import * as links from "../../../../connect/data.json";
+import { post } from "../../../../connect/index";
+import Footer from "../../../navigation/footer";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const VendorLogin = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [msg, setMsg] = useState("");
@@ -100,4 +100,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default VendorLogin;

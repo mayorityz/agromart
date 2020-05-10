@@ -5,15 +5,17 @@ import Dashboard from "./routes/Dashboard";
 import Orders from "./routes/Orders";
 import VendorSettings from "./routes/Settings";
 import VendorProducts from "./routes/Products";
+import VendorLogin from "./routes/auth/Login";
+import NewVendorAccount from "./routes/auth/Register";
 
 const Vdashboard = () => {
   let { path, url } = useRouteMatch();
   return (
     <>
-      <div class="ps-page--single">
-        <div class="ps-breadcrumb">
-          <div class="container">
-            <ul class="breadcrumb">
+      <div className="ps-page--single">
+        <div className="ps-breadcrumb">
+          <div className="container">
+            <ul className="breadcrumb">
               <li>
                 <a href="index-2.html">Home</a>
               </li>
@@ -23,11 +25,11 @@ const Vdashboard = () => {
         </div>
       </div>
       <br />
-      <div class="ps-vendor-dashboard">
-        <div class="container">
-          <div class="ps-section__content">
-            <ul class="ps-section__links">
-              <li class="active">
+      <div className="ps-vendor-dashboard">
+        <div className="container">
+          <div className="ps-section__content">
+            <ul className="ps-section__links">
+              <li className="active">
                 <Link to={`${url}`}>Dashboard</Link>
               </li>
               <li>
@@ -55,6 +57,12 @@ const Vdashboard = () => {
               </Route>
               <Route path={`${path}/products`}>
                 <VendorProducts />
+              </Route>
+              <Route path={`${path}/login`}>
+                <VendorLogin />
+              </Route>
+              <Route path={`${path}/register`}>
+                <NewVendorAccount />
               </Route>
             </Switch>
           </div>
