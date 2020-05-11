@@ -85,7 +85,7 @@ const Vdashboard = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

@@ -205,12 +205,6 @@ class TopHeader extends Component {
           <div className="header__right">
             <div className="header__actions">
               <a className="header__extra" href="#0">
-                <i className="icon-chart-bars"></i>
-                <span>
-                  <i>0</i>
-                </span>
-              </a>
-              <a className="header__extra" href="#0">
                 <i className="icon-heart"></i>
                 <span>
                   <i>0</i>

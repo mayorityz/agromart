@@ -6,7 +6,6 @@ import HomeBanner from "./homepage/banner";
 import SiteFeatures from "./homepage/site-features";
 import TopCategory from "./homepage/top-categories";
 import Promotions from "./homepage/promotions";
-import HotDeals from "./homepage/hotdeals";
 import NewArrivals from "./homepage/newarrivals";
 import Testimonial from "./homepage/testimonials";
 import HomeBlog from "./homepage/blog";
@@ -21,6 +20,7 @@ import CheckOut from "./components/frontend/Checkout";
 import Tracking from "./components/frontend/Tracking";
 import BeAVendor from "./components/frontend/Vendor";
 import Vdashboard from "./components/vendor/Dashboard";
+import Details from "./components/frontend/Details";
 
 function App() {
   return (
@@ -37,7 +37,6 @@ function App() {
             <SiteFeatures />
             <TopCategory />
             <Promotions />
-            {/* <HotDeals /> */}
             <NewArrivals />
             <Testimonial />
             <HomeBlog />
@@ -58,6 +57,12 @@ function App() {
         </Route>
         <Route path="/category">
           <Category />
+        </Route>
+        <Route path="/product-details/:productid">
+          <Details />
+        </Route>
+        <Route path="/product-details">
+          <Details />
         </Route>
         <Route path="/cart">
           <Cart />
