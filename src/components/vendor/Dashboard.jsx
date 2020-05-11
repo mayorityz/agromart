@@ -7,9 +7,23 @@ import VendorSettings from "./routes/Settings";
 import VendorProducts from "./routes/Products";
 import VendorLogin from "./routes/auth/Login";
 import NewVendorAccount from "./routes/auth/Register";
+import NewProduct from "./routes/NewProduct";
+import jsonwebtoken from "jsonwebtoken";
+
+let userToken = localStorage.getItem("agromartvend");
+const verify = (token) => {
+  return jsonwebtoken.verify(token, "vendorLoggedIn", (err, res) => {
+    if (err) {
+      return null;
+    }
+    return res;
+  });
+};
+let status = verify(userToken);
 
 const Vdashboard = () => {
   let { path, url } = useRouteMatch();
+
   return (
     <>
       <div className="ps-page--single">
@@ -47,16 +61,19 @@ const Vdashboard = () => {
             </ul>
             <Switch>
               <Route exact path={path}>
-                <Dashboard />
+                <Dashboard status={status} />
               </Route>
               <Route path={`${path}/orders`}>
-                <Orders />
+                <Orders status={status} />
               </Route>
               <Route path={`${path}/settings`}>
-                <VendorSettings />
+                <VendorSettings status={status} />
               </Route>
               <Route path={`${path}/products`}>
-                <VendorProducts />
+                <VendorProducts status={status} />
+              </Route>
+              <Route path={`${path}/add-product`}>
+                <NewProduct status={status} />
               </Route>
               <Route path={`${path}/login`}>
                 <VendorLogin />

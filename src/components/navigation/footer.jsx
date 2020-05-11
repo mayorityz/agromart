@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Footer extends Component {
   state = {};
@@ -13,19 +14,19 @@ class Footer extends Component {
                   <h4 className="widget-title">Quick links</h4>
                   <ul className="ps-list--link">
                     <li>
-                      <a href="policy.html">Policy</a>
+                      <Link to="#">Policy</Link>
                     </li>
                     <li>
-                      <a href="term-condition.html">Term & Condition</a>
+                      <Link to="#">Term & Condition</Link>
                     </li>
                     <li>
-                      <a href="shipping.html">Shipping</a>
+                      <Link to="#">Shipping</Link>
                     </li>
                     <li>
-                      <a href="return.html">Return</a>
+                      <Link to="#">Return</Link>
                     </li>
                     <li>
-                      <a href="faqs.html">FAQs</a>
+                      <Link to="#">FAQs</Link>
                     </li>
                   </ul>
                 </aside>
@@ -35,16 +36,16 @@ class Footer extends Component {
                   <h4 className="widget-title">Company</h4>
                   <ul className="ps-list--link">
                     <li>
-                      <a href="about-us.html">About Us</a>
+                      <Link to="#">About Us</Link>
                     </li>
                     <li>
-                      <a href="affilate.html">Affilate</a>
+                      <Link to="#">Affilate</Link>
                     </li>
                     <li>
-                      <a href="shipping.html">Career</a>
+                      <Link to="#">Career</Link>
                     </li>
                     <li>
-                      <a href="contact.html">Contact</a>
+                      <Link to="#">Contact</Link>
                     </li>
                   </ul>
                 </aside>
@@ -54,16 +55,16 @@ class Footer extends Component {
                   <h4 className="widget-title">Links</h4>
                   <ul className="ps-list--link">
                     <li>
-                      <a href="our-press.html">Vendor Login</a>
+                      <Link to="./vendor/login">Vendor Login</Link>
                     </li>
                     <li>
-                      <a href="checkout.html">Vendor Registration</a>
+                      <Link to="checkout.html">Vendor Registration</Link>
                     </li>
                     <li>
-                      <a href="my-account.html">My account</a>
+                      <Link to="my-account.html">My account</Link>
                     </li>
                     <li>
-                      <a href="shop.html">Shop</a>
+                      <Link to="#">Shop</Link>
                     </li>
                   </ul>
                 </aside>
@@ -82,24 +83,24 @@ class Footer extends Component {
                     </div>
                     <ul className="ps-list--social">
                       <li>
-                        <a className="facebook" href="#0">
+                        <Link className="facebook" to="#0">
                           <i className="fa fa-facebook"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="twitter" href="#0">
+                        <Link className="twitter" to="#0">
                           <i className="fa fa-twitter"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="google-plus" href="#0">
+                        <Link className="google-plus" to="#0">
                           <i className="fa fa-google-plus"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="instagram" href="#0">
+                        <Link className="instagram" to="#0">
                           <i className="fa fa-instagram"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </form>
@@ -110,22 +111,22 @@ class Footer extends Component {
           <div className="ps-footer__copyright">
             <p>© 2020 AgroMart. All Rights Reserved</p>
             <p>
-              <span>We Using Safe Payment For:</span>
-              <a href="#0">
+              <span>Our Payment Gateways:</span>
+              <Link to="#0">
                 <img src="img/payment-method/1.jpg" alt="" />
-              </a>
-              <a href="#0">
+              </Link>
+              <Link to="#0">
                 <img src="img/payment-method/2.jpg" alt="" />
-              </a>
-              <a href="#0">
+              </Link>
+              <Link to="#0">
                 <img src="img/payment-method/3.jpg" alt="" />
-              </a>
-              <a href="#0">
+              </Link>
+              <Link to="#0">
                 <img src="img/payment-method/4.jpg" alt="" />
-              </a>
-              <a href="#0">
+              </Link>
+              <Link to="#0">
                 <img src="img/payment-method/5.jpg" alt="" />
-              </a>
+              </Link>
             </p>
           </div>
         </div>

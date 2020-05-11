@@ -95,7 +95,7 @@ const NewArrivals = () => {
                       </select>
                       <span>01</span>
                     </div>
-                    <p className="ps-product__price">$20.99</p>
+                    <p className="ps-product__price">₦20.99</p>
                   </div>
                   <div className="ps-product__content hover">
                     <a
@@ -104,7 +104,7 @@ const NewArrivals = () => {
                     >
                       Locally Grown Strawberries, 1 Pint
                     </a>
-                    <p className="ps-product__price">$20.99</p>
+                    <p className="ps-product__price">₦20.99</p>
                   </div>
                 </div>
               </div>
@@ -176,7 +176,7 @@ const NewArrivals = () => {
                       </select>
                       <span>01</span>
                     </div>
-                    <p className="ps-product__price">$1.99</p>
+                    <p className="ps-product__price">₦1.99</p>
                   </div>
                   <div className="ps-product__content hover">
                     <a
@@ -185,7 +185,7 @@ const NewArrivals = () => {
                     >
                       Organic Oranges Valencia 1kg
                     </a>
-                    <p className="ps-product__price">$1.99</p>
+                    <p className="ps-product__price">₦1.99</p>
                   </div>
                 </div>
               </div>
@@ -257,7 +257,7 @@ const NewArrivals = () => {
                       </select>
                       <span>01</span>
                     </div>
-                    <p className="ps-product__price">$2.99</p>
+                    <p className="ps-product__price">₦2.99</p>
                   </div>
                   <div className="ps-product__content hover">
                     <a
@@ -266,7 +266,7 @@ const NewArrivals = () => {
                     >
                       Pineapple (Tropical Gold)
                     </a>
-                    <p className="ps-product__price">$2.99</p>
+                    <p className="ps-product__price">₦2.99</p>
                   </div>
                 </div>
               </div>
@@ -338,7 +338,7 @@ const NewArrivals = () => {
                       </select>
                       <span>01</span>
                     </div>
-                    <p className="ps-product__price">$23.99</p>
+                    <p className="ps-product__price">₦23.99</p>
                   </div>
                   <div className="ps-product__content hover">
                     <a
@@ -347,7 +347,7 @@ const NewArrivals = () => {
                     >
                       Tesco Eat Fresh Frozen Lamb Bone in Cube
                     </a>
-                    <p className="ps-product__price">$23.99</p>
+                    <p className="ps-product__price">₦23.99</p>
                   </div>
                 </div>
               </div>
@@ -419,7 +419,7 @@ const NewArrivals = () => {
                       </select>
                       <span>01</span>
                     </div>
-                    <p className="ps-product__price">$3.95</p>
+                    <p className="ps-product__price">₦3.95</p>
                   </div>
                   <div className="ps-product__content hover">
                     <a
@@ -428,7 +428,7 @@ const NewArrivals = () => {
                     >
                       MariGold 100% Juice Milk 350ml
                     </a>
-                    <p className="ps-product__price">$3.95</p>
+                    <p className="ps-product__price">₦3.95</p>
                   </div>
                 </div>
               </div>
@@ -500,7 +500,7 @@ const NewArrivals = () => {
                       </select>
                       <span>01</span>
                     </div>
-                    <p className="ps-product__price">$9.95</p>
+                    <p className="ps-product__price">₦9.95</p>
                   </div>
                   <div className="ps-product__content hover">
                     <a
@@ -509,7 +509,7 @@ const NewArrivals = () => {
                     >
                       HomeSoy Soya Milk Originall
                     </a>
-                    <p className="ps-product__price">$9.95</p>
+                    <p className="ps-product__price">₦9.95</p>
                   </div>
                 </div>
               </div>
@@ -581,7 +581,7 @@ const NewArrivals = () => {
                       </select>
                       <span>01</span>
                     </div>
-                    <p className="ps-product__price">$59.95</p>
+                    <p className="ps-product__price">₦59.95</p>
                   </div>
                   <div className="ps-product__content hover">
                     <a
@@ -590,7 +590,7 @@ const NewArrivals = () => {
                     >
                       Australia Banana 16 Pack 2.5 kg
                     </a>
-                    <p className="ps-product__price">$59.95</p>
+                    <p className="ps-product__price">₦59.95</p>
                   </div>
                 </div>
               </div>
@@ -664,7 +664,7 @@ const NewArrivals = () => {
                       <span>01</span>
                     </div>
                     <p className="ps-product__price">
-                      $42.95 <del>$49.20</del>
+                      ₦42.95 <del>₦49.20</del>
                     </p>
                   </div>
                   <div className="ps-product__content hover">
@@ -675,7 +675,7 @@ const NewArrivals = () => {
                       Augason Farms Freeze Dried Beef Chunks
                     </a>
                     <p className="ps-product__price">
-                      $42.95 <del>$49.20</del>
+                      ₦42.95 <del>₦49.20</del>
                     </p>
                   </div>
                 </div>
@@ -750,7 +750,7 @@ const NewArrivals = () => {
                       <span>01</span>
                     </div>
                     <p className="ps-product__price">
-                      $21.95 <del>$18.20</del>
+                      ₦21.95 <del>₦18.20</del>
                     </p>
                   </div>
                   <div className="ps-product__content hover">
@@ -761,7 +761,7 @@ const NewArrivals = () => {
                       Vita Coco Coconut Water (Pack of 12)
                     </a>
                     <p className="ps-product__price">
-                      $21.95 <del>$18.20</del>
+                      ₦21.95 <del>₦18.20</del>
                     </p>
                   </div>
                 </div>
@@ -836,7 +836,7 @@ const NewArrivals = () => {
                       <span>01</span>
                     </div>
                     <p className="ps-product__price">
-                      $4.95 <del>$5.20</del>
+                      ₦4.95 <del>₦5.20</del>
                     </p>
                   </div>
                   <div className="ps-product__content hover">
@@ -847,7 +847,7 @@ const NewArrivals = () => {
                       Ocean Spray 100% Juice, 10 Ounce Bottle
                     </a>
                     <p className="ps-product__price">
-                      $4.95 <del>$5.20</del>
+                      ₦4.95 <del>₦5.20</del>
                     </p>
                   </div>
                 </div>

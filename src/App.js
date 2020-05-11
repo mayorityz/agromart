@@ -37,7 +37,7 @@ function App() {
             <SiteFeatures />
             <TopCategory />
             <Promotions />
-            <HotDeals />
+            {/* <HotDeals /> */}
             <NewArrivals />
             <Testimonial />
             <HomeBlog />

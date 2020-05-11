@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import * as links from "../../../../connect/data.json";
 import { post } from "../../../../connect/index";
 import Footer from "../../../navigation/footer";
-import { Link } from "react-router-dom";
 
 const VendorLogin = () => {
   const [email, setEmail] = useState("");
@@ -13,10 +12,11 @@ const VendorLogin = () => {
     e.preventDefault();
     setMsg("Please wait!!");
     post(url, { email, password }).then((res) => {
-      console.log(res);
       if (res.success) {
+        let token = res.msg;
+        window.localStorage.setItem("agromartvend", token);
         setMsg("Login Successful, Please Wait!!!");
-        window.location = "/";
+        window.location = "../vendor";
       } else {
         setMsg(res.msg);
       }
@@ -25,19 +25,8 @@ const VendorLogin = () => {
   return (
     <>
       <div className="ps-page--my-account">
-        <div className="ps-breadcrumb">
-          <div className="container">
-            <ul className="breadcrumb">
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>Login</li>
-            </ul>
-          </div>
-        </div>
         <div className="ps-my-account">
           <div className="container">
-            <a href="#sign-in">Login</a>
             <form
               className="ps-form--account ps-tab-root"
               onSubmit={submitForm}

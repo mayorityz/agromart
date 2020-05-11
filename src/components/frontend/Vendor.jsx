@@ -208,7 +208,7 @@ const BeAVendor = () => {
               </h5>
               <div class="ps-section__numbers">
                 <figure>
-                  <h3>$0</h3>
+                  <h3>₦0</h3>
                   <span>List Fee</span>
                 </figure>
                 <figure>
@@ -280,7 +280,7 @@ const BeAVendor = () => {
                       fee based on their fee structure.
                     </p>
                     <p>
-                      Listing fees are billed for $0.20 USD, so if your bank’s
+                      Listing fees are billed for ₦0.20 USD, so if your bank’s
                       currency is not USD, the amount may differ based on
                       changes in the exchange rate.
                     </p>
@@ -319,7 +319,7 @@ const BeAVendor = () => {
                       fee based on their fee structure.
                     </p>
                     <p>
-                      Listing fees are billed for $0.20 USD, so if your bank’s
+                      Listing fees are billed for ₦0.20 USD, so if your bank’s
                       currency is not USD, the amount may differ based on
                       changes in the exchange rate.
                     </p>

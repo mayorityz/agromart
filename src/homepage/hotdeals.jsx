@@ -99,7 +99,7 @@ const HotDeals = () => {
                         </h3>
                         <div className="ps-product__meta">
                           <h4 className="ps-product__price sale">
-                            $36.78 <del> $56.99</del>
+                            ₦36.78 <del> ₦56.99</del>
                           </h4>
                           <div className="ps-product__rating">
                             <select className="ps-rating" data-read-only="true">
@@ -200,7 +200,7 @@ const HotDeals = () => {
                             </div>
                             <div className="ps-product__badge">
                               <span>
-                                Save <br /> $9.000
+                                Save <br /> ₦9.000
                               </span>{" "}
                             </div>
                           </div>
@@ -233,7 +233,7 @@ const HotDeals = () => {
                         </h3>
                         <div className="ps-product__meta">
                           <h4 className="ps-product__price sale">
-                            $97.78 <del> $156.99</del>
+                            ₦97.78 <del> ₦156.99</del>
                           </h4>
                           <div className="ps-product__rating">
                             <select className="ps-rating" data-read-only="true">
@@ -339,7 +339,7 @@ const HotDeals = () => {
                           <span>02</span>
                         </div>
                         <p className="ps-product__price sale">
-                          $990.99 <del>$1050.50 </del>
+                          ₦990.99 <del>₦1050.50 </del>
                         </p>
                       </div>
                     </div>
@@ -370,7 +370,7 @@ const HotDeals = () => {
                           <span></span>
                         </div>
                         <p className="ps-product__price sale">
-                          $45.99 <del>$50.50 </del>
+                          ₦45.99 <del>₦50.50 </del>
                         </p>
                       </div>
                     </div>
@@ -401,7 +401,7 @@ const HotDeals = () => {
                           <span></span>
                         </div>
                         <p className="ps-product__price sale">
-                          $100.99 <del>$120.50 </del>
+                          ₦100.99 <del>₦120.50 </del>
                         </p>
                       </div>
                     </div>
@@ -431,7 +431,7 @@ const HotDeals = () => {
                           </select>
                           <span>01</span>
                         </div>
-                        <p className="ps-product__price">$442.99 - $560.00</p>
+                        <p className="ps-product__price">₦442.99 - ₦560.00</p>
                       </div>
                     </div>
                   </div>
@@ -463,7 +463,7 @@ const HotDeals = () => {
                           <span></span>
                         </div>
                         <p className="ps-product__price sale">
-                          $100.99 <del>$120.50 </del>
+                          ₦100.99 <del>₦120.50 </del>
                         </p>
                       </div>
                     </div>
@@ -493,7 +493,7 @@ const HotDeals = () => {
                           </select>
                           <span>01</span>
                         </div>
-                        <p className="ps-product__price">$442.99 - $560.00</p>
+                        <p className="ps-product__price">₦442.99 - ₦560.00</p>
                       </div>
                     </div>
                     <div className="ps-product--horizontal">
@@ -523,7 +523,7 @@ const HotDeals = () => {
                           <span>01</span>
                         </div>
                         <p className="ps-product__price sale">
-                          $625.99 <del>$770.50 </del>
+                          ₦625.99 <del>₦770.50 </del>
                         </p>
                       </div>
                     </div>
@@ -553,7 +553,7 @@ const HotDeals = () => {
                           </select>
                           <span>01</span>
                         </div>
-                        <p className="ps-product__price">$1055.99</p>
+                        <p className="ps-product__price">₦1055.99</p>
                       </div>
                     </div>
                   </div>
