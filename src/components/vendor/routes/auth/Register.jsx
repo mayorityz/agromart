@@ -15,7 +15,7 @@ const NewVendorAccount = () => {
     setMsg("please wait!");
     post(url, { firstName, lastName, email, pass1: password }).then((res) => {
       if (res.success) {
-        setMsg(res.success);
+        setMsg("Vendor Account Created Successfully");
       } else {
         setMsg(res.errors[0].msg);
       }

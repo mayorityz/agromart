@@ -8,11 +8,12 @@ const VendorLogin = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [msg, setMsg] = useState("");
-  const url = `${links.url}/login`;
+  const url = `${links.url}/vendor/login`;
   const submitForm = (e) => {
     e.preventDefault();
     setMsg("Please wait!!");
     post(url, { email, password }).then((res) => {
+      console.log(res);
       if (res.success) {
         setMsg("Login Successful, Please Wait!!!");
         window.location = "/";
@@ -86,7 +87,9 @@ const VendorLogin = () => {
                     </div>
                     <hr />
                     {msg ? (
-                      <div className="alert alert-success">{msg}</div>
+                      <div className="alert alert-success text-center">
+                        {msg}
+                      </div>
                     ) : null}
                   </div>
                 </div>
