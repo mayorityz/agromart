@@ -1,67 +1,34 @@
 import React from "react";
-
+import * as Links from "../../connect/data.json";
 const Mobile = () => {
   return (
     <>
       <header class="header header--mobile organic" data-sticky="true">
         <div class="header__top">
           <div class="header__left">
-            <p>Welcome to Martfury Online Shopping Store !</p>
+            <p>Welcome to AgroMart</p>
           </div>
           <div class="header__right">
             <ul class="navigation__extra">
               <li>
-                <a href="#">Sell on Martfury</a>
+                <a href={`${Links.website}/vendor/`}>Sell on AgroMart</a>
               </li>
               <li>
-                <a href="#">Tract your order</a>
-              </li>
-              <li>
-                <div class="ps-dropdown">
-                  <a href="#">US Dollar</a>
-                  <ul class="ps-dropdown-menu">
-                    <li>
-                      <a href="#">Us Dollar</a>
-                    </li>
-                    <li>
-                      <a href="#">Euro</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <div class="ps-dropdown language">
-                  <a href="#">
-                    <img src="img/flag/en.png" alt="" />
-                    English
-                  </a>
-                  <ul class="ps-dropdown-menu">
-                    <li>
-                      <a href="#">
-                        <img src="img/flag/germany.png" alt="" /> Germany
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="img/flag/fr.png" alt="" /> France
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                <a href={`${Links.website}/track-my-order`}>Track your order</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="navigation--mobile">
           <div class="navigation__left">
-            <a class="ps-logo" href="index-2.html">
-              <img src="img/logo-organic.png" alt="" />
+            <a class="ps-logo" href="/">
+              {/* <img src="img/logo-organic.png" alt="" /> */}
             </a>
           </div>
           <div class="navigation__right">
             <div class="header__actions">
               <div class="ps-cart--mini">
-                <a class="header__extra" href="#">
+                <a class="header__extra" href="#0">
                   <i class="icon-bag2"></i>
                   <span>
                     <i>0</i>
@@ -71,12 +38,12 @@ const Mobile = () => {
                   <div class="ps-cart__items">
                     <div class="ps-product--cart-mobile">
                       <div class="ps-product__thumbnail">
-                        <a href="#">
+                        <a href="#0">
                           <img src="img/products/clothing/7.jpg" alt="" />
                         </a>
                       </div>
                       <div class="ps-product__content">
-                        <a class="ps-product__remove" href="#">
+                        <a class="ps-product__remove" href="#0">
                           <i class="icon-cross"></i>
                         </a>
                         <a href="product-default.html">
@@ -90,12 +57,12 @@ const Mobile = () => {
                     </div>
                     <div class="ps-product--cart-mobile">
                       <div class="ps-product__thumbnail">
-                        <a href="#">
+                        <a href="#0">
                           <img src="img/products/clothing/5.jpg" alt="" />
                         </a>
                       </div>
                       <div class="ps-product__content">
-                        <a class="ps-product__remove" href="#">
+                        <a class="ps-product__remove" href="#0">
                           <i class="icon-cross"></i>
                         </a>
                         <a href="product-default.html">
@@ -113,10 +80,10 @@ const Mobile = () => {
                       Sub Total:<strong>$59.99</strong>
                     </h3>
                     <figure>
-                      <a class="ps-btn" href="shopping-cart.html">
+                      <a class="ps-btn" href={`${Links.website}/cart`}>
                         View Cart
                       </a>
-                      <a class="ps-btn" href="checkout.html">
+                      <a class="ps-btn" href={`${Links.website}/checkout`}>
                         Checkout
                       </a>
                     </figure>
@@ -128,8 +95,8 @@ const Mobile = () => {
                   <i class="icon-user"></i>
                 </div>
                 <div class="ps-block__right">
-                  <a href="my-account.html">Login</a>
-                  <a href="my-account.html">Register</a>
+                  <a href={`${Links.website}/login`}>Login</a>
+                  <a href={`${Links.website}/joinus`}>Register</a>
                 </div>
               </div>
             </div>

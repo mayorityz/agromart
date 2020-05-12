@@ -1,11 +1,8 @@
 import React from "react";
 import * as Links from "../../connect/data.json";
-import { Link, useRouteMatch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-  let { path, url } = useRouteMatch();
-  console.log(path);
-  console.log(url);
   return (
     <footer className="ps-footer ps-footer--2">
       <div className="container">
@@ -57,13 +54,15 @@ const Footer = () => {
                 <h4 className="widget-title">Links</h4>
                 <ul className="ps-list--link">
                   <li>
-                    <Link to="vendor/login">Vendor Login</Link>
+                    <a href={`${Links.website}/vendor/login`}>Vendor Login</a>
                   </li>
                   <li>
-                    <Link to="checkout.html">Vendor Registration</Link>
+                    <a href={`${Links.website}/vendor/register`}>
+                      Vendor Registration
+                    </a>
                   </li>
                   <li>
-                    <Link to="my-account.html">My account</Link>
+                    <a href={`${Links.website}/login`}>My account</a>
                   </li>
                   <li>
                     <Link to="#">Shop</Link>

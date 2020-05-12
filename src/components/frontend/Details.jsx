@@ -59,9 +59,9 @@ const Details = () => {
                             ? null
                             : product.imgUrls.map((p, i) => (
                                 <div className="item" key={i}>
-                                  <Link to={p}>
+                                  <a href={p}>
                                     <img src={p} alt="" />
-                                  </Link>
+                                  </a>
                                 </div>
                               ))}
                         </div>

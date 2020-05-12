@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route, Link, useRouteMatch } from "react-router-dom";
-import Footer from "../navigation/footer";
+// import Footer from "../navigation/footer";
 import Dashboard from "./routes/Dashboard";
 import Orders from "./routes/Orders";
 import VendorSettings from "./routes/Settings";

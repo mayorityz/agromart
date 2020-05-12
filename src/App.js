@@ -21,6 +21,7 @@ import Tracking from "./components/frontend/Tracking";
 import BeAVendor from "./components/frontend/Vendor";
 import Vdashboard from "./components/vendor/Dashboard";
 import Details from "./components/frontend/Details";
+import Mobile from "./components/navigation/mobile-header";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         <TopHeader />
         <Navigation />
       </div>
-
+      <Mobile />
       <Switch>
         <Route exact path="/">
           <div id="homepage-9">
