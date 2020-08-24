@@ -1,4 +1,6 @@
 {
     "url": "http://localhost:8080",
-    "website": "http://localhost:3000"
+    "website": "http://localhost:3000",
+    "liveurl": "https://ifarms-app.herokuapp.com",
+    "livewebsite": "https://agromart.surge.sh"
 }

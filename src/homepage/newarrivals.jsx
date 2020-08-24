@@ -51,74 +51,74 @@ const NewArrivals = () => {
           <div className="row">
             {products.length === 0 ? (
               <div>No New Items</div>
-            ) : (
-              products.map((product) => (
-                <div
-                  key={product._id}
-                  className="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 "
-                >
-                  <div className="ps-product">
-                    <div className="ps-product__thumbnail">
-                      <a href="product-default.html">
-                        <img src={product.imgUrls[0]} alt="" />
-                      </a>
-                      <ul className="ps-product__actions">
-                        <li>
-                          <a
-                            href="#0"
-                            data-toggle="tooltip"
-                            data-placement="top"
-                            title="Add To Cart"
-                          >
-                            <i className="icon-bag2"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="#0"
-                            data-toggle="tooltip"
-                            data-placement="top"
-                            title="Details"
-                          >
-                            <i className="icon-eye"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="#0"
-                            data-toggle="tooltip"
-                            data-placement="top"
-                            title="Add to Whishlist"
-                          >
-                            <i className="icon-heart"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="ps-product__container">
-                      <div className="ps-product__content">
-                        <Link
-                          className="ps-product__title"
-                          to={`/product-details/${product._id}`}
-                        >
-                          {product.title}
-                        </Link>
-                        <p className="ps-product__price">₦{product.price}</p>
-                      </div>
-                      <div className="ps-product__content hover">
-                        <Link
-                          className="ps-product__title"
-                          to={`/product-details/${product._id}`}
-                        >
-                          {product.title}
-                        </Link>
-                        <p className="ps-product__price">₦{product.price}</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))
-            )}
+            ) : null
+            // products.map((product) => (
+            //   <div
+            //     key={product._id}
+            //     className="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 "
+            //   >
+            //     <div className="ps-product">
+            //       <div className="ps-product__thumbnail">
+            //         <a href="product-default.html">
+            //           <img src={product.imgUrls[0]} alt="" />
+            //         </a>
+            //         <ul className="ps-product__actions">
+            //           <li>
+            //             <a
+            //               href="#0"
+            //               data-toggle="tooltip"
+            //               data-placement="top"
+            //               title="Add To Cart"
+            //             >
+            //               <i className="icon-bag2"></i>
+            //             </a>
+            //           </li>
+            //           <li>
+            //             <a
+            //               href="#0"
+            //               data-toggle="tooltip"
+            //               data-placement="top"
+            //               title="Details"
+            //             >
+            //               <i className="icon-eye"></i>
+            //             </a>
+            //           </li>
+            //           <li>
+            //             <a
+            //               href="#0"
+            //               data-toggle="tooltip"
+            //               data-placement="top"
+            //               title="Add to Whishlist"
+            //             >
+            //               <i className="icon-heart"></i>
+            //             </a>
+            //           </li>
+            //         </ul>
+            //       </div>
+            //       <div className="ps-product__container">
+            //         <div className="ps-product__content">
+            //           <Link
+            //             className="ps-product__title"
+            //             to={`/product-details/${product._id}`}
+            //           >
+            //             {product.title}
+            //           </Link>
+            //           <p className="ps-product__price">₦{product.price}</p>
+            //         </div>
+            //         <div className="ps-product__content hover">
+            //           <Link
+            //             className="ps-product__title"
+            //             to={`/product-details/${product._id}`}
+            //           >
+            //             {product.title}
+            //           </Link>
+            //           <p className="ps-product__price">₦{product.price}</p>
+            //         </div>
+            //       </div>
+            //     </div>
+            //   </div>
+            // ))
+            }
           </div>
         </div>
       </div>

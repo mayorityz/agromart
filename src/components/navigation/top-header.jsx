@@ -187,11 +187,11 @@ class TopHeader extends Component {
                 <i className="icon-chevron-down"></i>
                 <select className="form-control">
                   <option value="1">All</option>
-                  <option value="1">Bags</option>
-                  <option value="1">Shoes</option>
-                  <option value="1">Men</option>
-                  <option value="1">Women</option>
-                  <option value="1">Sunglasses</option>
+                  <option value="1">Vegetables</option>
+                  <option value="1">Meats</option>
+                  <option value="1">Milks & Eggs</option>
+                  <option value="1">Ocean Foods</option>
+                  <option value="1">Fruits</option>
                 </select>
               </div>
               <input

@@ -21,159 +21,34 @@ class Navigation extends Component {
                         <i className="icon-star"></i> Hot Promotions
                       </a>
                     </li>
-                    <li className="menu-item-has-children has-mega-menu">
-                      <a href="#0">
-                        <i className="icon-laundry"></i> Consumer Electronic
-                      </a>
-                      <div className="mega-menu">
-                        <div className="mega-menu__column">
-                          <h4>
-                            Electronic<span className="sub-toggle"></span>
-                          </h4>
-                          <ul className="mega-menu__list">
-                            <li>
-                              <a href="#0">Home Audio &amp; Theathers</a>
-                            </li>
-                            <li>
-                              <a href="#0">TV &amp; Videos</a>
-                            </li>
-                            <li>
-                              <a href="#0">Camera, Photos &amp; Videos</a>
-                            </li>
-                            <li>
-                              <a href="#0">Cellphones &amp; Accessories</a>
-                            </li>
-                            <li>
-                              <a href="#0">Headphones</a>
-                            </li>
-                            <li>
-                              <a href="#0">Videosgames</a>
-                            </li>
-                            <li>
-                              <a href="#0">Wireless Speakers</a>
-                            </li>
-                            <li>
-                              <a href="#0">Office Electronic</a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="mega-menu__column">
-                          <h4>
-                            Accessories &amp; Parts
-                            <span className="sub-toggle"></span>
-                          </h4>
-                          <ul className="mega-menu__list">
-                            <li>
-                              <a href="#0">Digital Cables</a>
-                            </li>
-                            <li>
-                              <a href="#0">Audio &amp; Video Cables</a>
-                            </li>
-                            <li>
-                              <a href="#0">Batteries</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
                     <li>
                       <a href="#0">
-                        <i className="icon-shirt"></i> Clothing &amp; Apparel
+                        <i className="icon-shirt"></i> Milk &amp; Cream
                       </a>
                     </li>
                     <li>
                       <a href="#0">
-                        <i className="icon-lampshade"></i> Home, Garden &amp;
-                        Kitchen
+                        <i className="icon-lampshade"></i> Fresh Meat
                       </a>
                     </li>
                     <li>
                       <a href="#0">
-                        <i className="icon-heart-pulse"></i> Health &amp; Beauty
+                        <i className="icon-heart-pulse"></i> Butter &amp; Eggs
                       </a>
                     </li>
                     <li>
                       <a href="#0">
-                        <i className="icon-diamond2"></i> Yewelry &amp; Watches
-                      </a>
-                    </li>
-                    <li className="menu-item-has-children has-mega-menu">
-                      <a href="#0">
-                        <i className="icon-desktop"></i> Computer &amp;
-                        Technology
-                      </a>
-                      <div className="mega-menu">
-                        <div className="mega-menu__column">
-                          <h4>
-                            Computer &amp; Technologies
-                            <span className="sub-toggle"></span>
-                          </h4>
-                          <ul className="mega-menu__list">
-                            <li>
-                              <a href="#0">Computer &amp; Tablets</a>
-                            </li>
-                            <li>
-                              <a href="#0">Laptop</a>
-                            </li>
-                            <li>
-                              <a href="#0">Monitors</a>
-                            </li>
-                            <li>
-                              <a href="#0">Networking</a>
-                            </li>
-                            <li>
-                              <a href="#0">Drive &amp; Storages</a>
-                            </li>
-                            <li>
-                              <a href="#0">Computer Components</a>
-                            </li>
-                            <li>
-                              <a href="#0">Security &amp; Protection</a>
-                            </li>
-                            <li>
-                              <a href="#0">Gaming Laptop</a>
-                            </li>
-                            <li>
-                              <a href="#0">Accessories</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <a href="#0">
-                        <i className="icon-baby-bottle"></i> Babies &amp; Moms
+                        <i className="icon-diamond2"></i> Vegetables
                       </a>
                     </li>
                     <li>
                       <a href="#0">
-                        <i className="icon-baseball"></i> Sport &amp; Outdoor
+                        <i className="icon-baby-bottle"></i> Fruits
                       </a>
                     </li>
                     <li>
                       <a href="#0">
-                        <i className="icon-smartphone"></i> Phones &amp;
-                        Accessories
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#0">
-                        <i className="icon-book2"></i> Books &amp; Office
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#0">
-                        <i className="icon-car-siren"></i> Cars &amp; Motocycles
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#0">
-                        <i className="icon-wrench"></i> Home Improments
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#0">
-                        <i className="icon-tag"></i> Vouchers &amp; Services
+                        <i className="icon-baseball"></i> Ocean Foods
                       </a>
                     </li>
                   </ul>

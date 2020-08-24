@@ -44,7 +44,7 @@ const HomeBlog = () => {
                     How To Make A Fresh Juice Blended For Your Family?
                   </a>
                   <p>
-                    December 17, 2017 by<a href="#0"> drfurion</a>
+                    December 17, 2020 by<a href="#0"> drfurion</a>
                   </p>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const HomeBlog = () => {
                     Fresh Eggs From Caroline’s Farm
                   </a>
                   <p>
-                    December 17, 2017 by<a href="#0"> drfurion</a>
+                    December 17, 2020 by<a href="#0"> drfurion</a>
                   </p>
                 </div>
               </div>
@@ -95,7 +95,7 @@ const HomeBlog = () => {
                     Discover Fresh Organic Farms In Switzeland Villages
                   </a>
                   <p>
-                    December 17, 2017 by<a href="#0"> drfurion</a>
+                    December 17, 2020 by<a href="#0"> drfurion</a>
                   </p>
                 </div>
               </div>
